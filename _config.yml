@@ -52,6 +52,8 @@ author:
 menu:
   - title:             Math
     url:               /math/
+  - title:             Deep Learning
+    url:               /deep_learning/
   - title:             Example
     url:               /example/
   - title:             Documentation

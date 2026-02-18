@@ -56,13 +56,13 @@ menu:
     url:               /math/
     submenu: 
       - title:         Algebra
-        url:           /math/algebra/
+        url:           /algebra/
       - title:         Linear Algebra
-        url:           /math/linearalgebra/
+        url:           /linearalgebra/
       - title:         Matrix Analysis
-        url:           /math/matrixanalysis/
+        url:           /matrixanalysis/
       - title:         Math Etc.
-        url:           /math/mathetc/
+        url:           /mathetc/
   - title:             Deep Learning
     url:               /deeplearning/
   - title:             NPUs

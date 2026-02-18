@@ -30,7 +30,7 @@ description:           >
   A journey to understand, implement and break-through Deep Learning
 
 # A shorter description for the sidebar.
-tagline:               `
+# tagline:               Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
 keywords:              []

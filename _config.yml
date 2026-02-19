@@ -65,6 +65,9 @@ menu:
         url:           /mathetc/
   - title:             Deep Learning
     url:               /deeplearning/
+    submenu:
+      - title:         Adder Net
+        url:           /addernet/
   - title:             NPUs
     url:               /npus/
   - title:             Misc

@@ -1,25 +1,28 @@
 # Config
-# ========================================================================================
+# ======================================================================================
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-#url:                   https://seunghw-lee.github.io/seunghw-AI-blog
+# url:                   https://username.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-#baseurl:               '/seunghw-AI-blog'
+# baseurl:               '/seunghw-AI-blog'
+
 
 # General settings
 # ---------------------------------------------------------------------------------------
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  ko-KR, en-US
+lang:			en
+
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 seunghw AI blog.
+title:			Starter Kit
+
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -27,7 +30,7 @@ description:           >
   A journey to understand, implement and break-through Deep Learning
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+# tagline:               Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
 keywords:              []
@@ -40,8 +43,9 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                seunghw
-  email:                seunghw-lee@gmail.com
+#  name:               Dr. 느믈느믈
+  name:               Dr. numulnumul
+  email:               nomail@nodomain.no
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -52,7 +56,7 @@ menu:
   - title:             Math
     url:               /math/
     submenu: 
-      - title:         Algebra 
+      - title:         Algebra
         url:           /algebra/
       - title:         Linear Algebra
         url:           /linearalgebra/
@@ -67,9 +71,8 @@ menu:
         url:           /addernet/
   - title:             NPUs
     url:               /npus/
-  - title:             My Misc...
-    url:               /mymisc/
-
+  - title:             Misc
+    url:               /misc/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -82,7 +85,7 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2024. All rights reserved.
+copyright:             © 2026. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -96,19 +99,19 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 # This will use the gem `jekyll-theme-hydejack`, as defined in the sibling `Gemfile`.
-theme: jekyll-theme-hydejack
+ theme: jekyll-theme-hydejack
 
 # You can uncomment `theme` above and replace it with `remote_theme` here iff you are using the 
 # `jekyll-remote-theme` plugin (which is the case when using the legacy GitHub Pages pipeline).
 # This will fetch the `v9` branch of the public Hydejack repository on GitHub.
-# remote_theme: hydecorp/hydejack@v9
+# remote_theme: hydecorp/hydejack@v9.2.1
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:           rgb(79,177,186)
+accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -143,15 +146,15 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      accent_color:     rgb(38,139,210)
+      accent_color:    rgb(38,139,210)
       theme_color:     rgb(32,32,32)
       accent_image:
         background:    rgb(32,32,32)
-        overlay:          false
+        overlay:       false
 
   # Don't include documents in assets in the sitemap
   - scope:
-      path:             assets/
+      path:            assets/
     values:
       sitemap:         false
 
@@ -159,7 +162,7 @@ defaults:
   - scope:
       path:            licenses/
     values:
-      layout:           plain
+      layout:          plain
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.

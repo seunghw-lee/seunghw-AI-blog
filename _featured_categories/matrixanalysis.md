@@ -1,6 +1,10 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
 layout: list
+type: category
+category: math
+sidebar: true
+order: 3
 
 # The title of the tag's page.
 title: Matrix Analysis

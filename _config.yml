@@ -11,7 +11,7 @@
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 baseurl:               '/seunghw-AI-blog'
 
-# General settings 
+# General settings
 # ---------------------------------------------------------------------------------------
 
 # Language of your content in 2-letter code, e.g.: en, de.

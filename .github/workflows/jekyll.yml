@@ -41,7 +41,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Build & Deploy
         id: gh_pages
-        uses: dunkmann00/jekyll-v4-gh-pages@v1
+        uses: seunghw-lee/jekyll-v4p4p1-gh-pages@v1
   #
   # # Build job
   # build:

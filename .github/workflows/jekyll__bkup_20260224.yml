@@ -39,8 +39,7 @@ jobs:
         with:
           # ruby-version: '3.1' # Not needed with a .ruby-version file
           ruby-version: '3.3.6' # S.H.Lee - 2026.02.23 
-          # bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          bundler-cache: false # runs 'bundle install' and caches installed gems automatically
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           # cache-version: 0 # Increment this number if you need to re-download cached gems
           cache-version: 1 # Increment this number if you need to re-download cached gems
       - name: Setup Pages

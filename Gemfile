@@ -63,9 +63,6 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
 
-  # S.H.Lee - 2026.02.24
-  gem 'kramdown-math-katex'    
-
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
   gem "jekyll-compose"

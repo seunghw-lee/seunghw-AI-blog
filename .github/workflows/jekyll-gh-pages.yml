@@ -26,26 +26,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         uses: noraworld/jekyll-build-pages@main
         with:
-          use_ruby_version: ${{ inputs.use_ruby_version }}
-          use_gemfile: ${{ inputs.use_gemfile }}
-          ref: ${{ inputs.ref }}
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+          use_ruby_version: false
+          use_gemfile: false
+          ref: main
 
-  # Deployment job
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

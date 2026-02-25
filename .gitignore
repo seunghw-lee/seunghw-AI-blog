@@ -39,7 +39,7 @@ vendor
 .ruby-lsp
 .wrangler
 *.gem
-Gemfile.lock
+# Gemfile.lock
 _zip
 /stats.json
 .dev.vars

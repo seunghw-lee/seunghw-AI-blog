@@ -27,13 +27,14 @@ concurrency:
   # cancel-in-progress: false
   cancel-in-progress: true     # S.H.Lee - 2026.02.24
 
-
 jobs:
 # Build & Deploy Job - from dunkmann00 - S.H.Lee - 2026.02.24
   gh_pages:
     name: Build & Deploy Github Pages
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
      - name: Setup Ruby
        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
        # uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
@@ -42,8 +43,6 @@ jobs:
        ruby-version: '3.3.6' # S.H.Lee - 2026.02.23 
        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
        # cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Build & Deploy
         id: gh_pages
         uses: seunghw-lee/jekyll-v4p4p1-gh-pages@v1.5

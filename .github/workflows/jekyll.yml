@@ -33,7 +33,7 @@ jobs:
   gh_pages:
     name: Build & Deploy Github Pages
     runs-on: ubuntu-latest
-    environment:
+    # environment:
       # name: github-pages
       # url: ${{ steps.gh_pages.outputs.page_url }}
     steps:

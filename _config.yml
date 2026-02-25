@@ -330,6 +330,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - functions
+  - jekyll-build-pages
 include:
   - _routes.json
   - .well-known

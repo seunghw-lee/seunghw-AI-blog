@@ -37,13 +37,6 @@ jobs:
       name: github-pages
       url: ${{ steps.gh_pages.outputs.page_url }}
     steps:
-     # - name: Setup GutHub Cache
-     #   uses: actions/cache@v4
-     #    with:
-     #      path: vendor/bundle
-     #      key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-     #      restore-keys: |
-     #        ${{ runner.os }}-gems-
      - name: Setup Ruby
        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
        # uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4

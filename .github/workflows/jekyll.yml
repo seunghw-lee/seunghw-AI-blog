@@ -34,8 +34,8 @@ jobs:
     name: Build & Deploy Github Pages
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
-      url: ${{ steps.gh_pages.outputs.page_url }}
+      # name: github-pages
+      # url: ${{ steps.gh_pages.outputs.page_url }}
     steps:
      - name: Setup Ruby
        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0

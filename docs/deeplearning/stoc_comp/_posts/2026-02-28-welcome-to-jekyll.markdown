@@ -4,7 +4,7 @@ title:  "Why addewrner is not used widely?"
 date:   2026-02-28 20:02:17 +0900
 category: 
     - deeplearning 
-    - addernet
+    - stoc_comp
 ---
 
 

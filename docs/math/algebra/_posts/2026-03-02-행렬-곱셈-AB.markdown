@@ -1,0 +1,19 @@
+---
+layout: post
+title:  " 행렬 곱셈 AB"
+date:   2026-03-02 12:34:17 +0900
+category: 
+    - math
+    - algebra
+---
+
+Going On... 20 pages per day???? -> 6 days for Ch.1
+
+```
+곱셈 :  행렬 열공간의 방향에 따라 x성분만큼  projection하는 연산
+
+덧셈 :  그냥 더하기????
+```
+
+결국 연산의 문제가 아닌 열공간에 대한 것이냐 아니냐의 문제였다.......???
+

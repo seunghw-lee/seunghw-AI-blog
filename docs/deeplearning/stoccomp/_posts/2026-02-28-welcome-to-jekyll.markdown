@@ -4,7 +4,7 @@ title:  "Why addewrner is not used widely? in stoc_comp"
 date:   2026-02-28 20:02:17 +0900
 category: 
     - deeplearning 
-    - stoc_comp
+    - stoccomp
 ---
 
 

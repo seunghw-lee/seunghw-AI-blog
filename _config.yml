@@ -68,7 +68,7 @@ menu:
       - title:         Adder Net
         url:           /addernet/
       - title:         Stochastic Computing
-        url:           /stoc_comp/
+        url:           /stoccomp/
   - title:             NPUs
     url:               /npus/
   - title:             My Misc...

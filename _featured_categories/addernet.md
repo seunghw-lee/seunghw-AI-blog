@@ -2,7 +2,7 @@
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
 layout: list
 type: category
-category: deeplearnng
+category: deeplearning
 sidebar: true
 order: 1
 

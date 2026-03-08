@@ -1,0 +1,39 @@
+---
+layout: post
+title:  " 네 가지 기본 부분공간"
+date:   2026-03-08 12:34:17 +0900
+category: 
+    - math
+    - algebra
+---
+
+
+
+```
+열공간 $C(A)$ :  행렬 $A$의 모든 열의 일차결합을 포함한다
+행공간 $C(A^T)$ :  행렬 $A^T$의 모든 열의 일차결합을 포함한다
+영공간 $N(A)$ :  $Ax = 0$의 모든 해를 포함한다
+좌영공간 $N(A^T)$ :  $A^Ty = 0$의 모든 해를 포함한다
+```
+
+.....,..
+
+
+
+
+
+**행렬 곱에 대한 또 다른 시각**
+
+https://angeloyeo.github.io/2020/09/08/matrix_multiplication.html
+
+**선형회귀**
+
+https://angeloyeo.github.io/2020/08/24/linear_regression.html
+
+**4개 주요 부분 공간의 관계**
+
+https://angeloyeo.github.io/2020/11/17/four_fundamental_subspaces.html#google_vignette
+
+
+
+역시 "공돌이의 수학정리노트".......

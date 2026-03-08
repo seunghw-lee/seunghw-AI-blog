@@ -29,6 +29,8 @@ Going On... 20 pages per day???? -> 6 days for Ch.1
 
 
 
+
+
 **행렬 곱에 대한 또 다른 시각**
 
 https://angeloyeo.github.io/2020/09/08/matrix_multiplication.html
@@ -36,6 +38,10 @@ https://angeloyeo.github.io/2020/09/08/matrix_multiplication.html
 **선형회귀**
 
 https://angeloyeo.github.io/2020/08/24/linear_regression.html
+
+**4개 주요 부분 공간의 관계**
+
+https://angeloyeo.github.io/2020/11/17/four_fundamental_subspaces.html#google_vignette
 
 
 

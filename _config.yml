@@ -191,9 +191,11 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         katex
+  math_engine:         mathjax
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
+#  math_engine:         katex
+
 
 
 # Hydejack Settings
